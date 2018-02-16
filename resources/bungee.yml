@@ -1,0 +1,5 @@
+author: ustc_zzzz
+version: @version@
+description: @introduction@
+name: CommandBlockingManager
+main: com.github.ustc_zzzz.cbm.CBMBungee
