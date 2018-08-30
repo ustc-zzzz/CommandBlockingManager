@@ -81,7 +81,7 @@ public final class CBMBungee extends Plugin implements Listener
             {
                 event.setCancelled(true);
                 this.sendErrorMessage(connection);
-                String logFormat = "%s has tried to execute an illegal server command: /%s, rejected.";
+                String logFormat = "%s has tried to execute an illegal server command: /%s, blocked.";
                 this.getLogger().info(String.format(logFormat, this.getConnectionName(connection), command));
             }
         }

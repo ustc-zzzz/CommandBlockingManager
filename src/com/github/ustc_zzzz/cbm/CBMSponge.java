@@ -79,7 +79,7 @@ public final class CBMSponge
         String command = event.getCommand() + ' ' + event.getArguments();
         if (this.shouldCommandBeRejected(source, command))
         {
-            String logFormat = "{} has tried to execute an illegal server command: /{}, rejected.";
+            String logFormat = "{} has tried to execute an illegal server command: /{}, blocked.";
             Text errorMessage = SpongeApiTranslationHelper.t("commands.generic.notFound");
             source.sendMessage(CommandMessageFormatting.error(errorMessage));
             this.logger.info(logFormat, source.getName(), command);
