@@ -22,7 +22,7 @@ apply plugin: 'net.minecrell.vanilla.server.library'
 sourceCompatibility = '1.7'
 targetCompatibility = '1.7'
 
-version = '0.1.0'
+version = '0.1.1'
 
 ext {
     introduction = 'A sponge and bungeecord plugin for blocking commands sent by players'
